@@ -12,6 +12,12 @@ Your task is as follows:
 
 To submit your assignment, commit your script(s), Jupyter Notebook or R Markdown document and the CSV file back into the repository.
 
+# Logic Flow
+1. Determine the HTML elements containing information about the books
+2. Use BeautifulSoup to scrap and extract the elements
+3. Iterate through the elements using the HTML tags and extract relevant information
+4. Convert and save information to a csv file
+
 # Notes
-While I was able to scrap the website, I was unable to fine-tune the details further due to time constraints.
-My original plan was to scrap, classify each book such as Java, Python for easier reference
+* As the website did not contain HTML tags which can be used to determine the category of the books, I had a difficulty classifying them and decided to hardcode the titles to act as filters
+* Overall, there were 4 Java, 4 Open Source, 7 Python, 8 Software Architecture and 13 Other category books
